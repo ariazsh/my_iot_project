@@ -22,28 +22,27 @@ In this project, I chose to build a light sensor device with FiPy that reads an 
 |FiPy and sensors bundle |Electrokit     | 1499sk|
 
 
-The link to Electrolink is https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-fipy-and-sensors-bundle/
+The link to Electrolink is: https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-fipy-and-sensors-bundle/
 
 This is the FiPy and sensors bundle. Includes:
 
-
-– FiPy with headers – Expansion board
-– Antennae
-– Micro USB cable
-– Jumper wire
-– Breadboard
-– 10 x Resistor 1 kohm
-– 10 x Resistor 10 kohm
-– 10 x Resistor 330 ohm
-– 10 x Resistor 560 ohm
-– 5 x LED red
-– 5 x LED orange
-– 5 x LED green
-– 2 x LDR
-– Tilt switch
-– Temperature sensor MCP9700
-– Hall-effect sensor TLV49645
-– Magnet
+- FiPy with headers – Expansion board
+- Antennae
+- Micro USB cable
+- Jumper wire
+- Breadboard
+- 10 x Resistor 1 kohm
+- 10 x Resistor 10 kohm
+- 10 x Resistor 330 ohm
+- 10 x Resistor 560 ohm
+- 5 x LED red
+- 5 x LED orange
+- 5 x LED green
+- 2 x LDR
+- Tilt switch
+- Temperature sensor MCP9700
+- Hall-effect sensor TLV49645
+- Magnet
 
 materials description:
 Fipy is a microcontroller that has five networks and it is programmable in MicroPython. You need a development tool for the fipy and in this case it is Pymakr plugins. I used the expansion board to connect it to sensors and PC. In order to connect your sensors to the expansion board and fipy, you need breadboard and wires.
