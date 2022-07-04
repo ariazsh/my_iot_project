@@ -27,6 +27,25 @@ In this project, I chose to build a light sensor device with FiPy that reads an 
 |FiPy and sensors bundle |Electrokit     | 1499sk|
 The link to Electrolink is https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-fipy-and-sensors-bundle/
 
+This is the FiPy and sensors bundle. Includes:
+– FiPy with headers – Expansion board
+– Antennae
+– Micro USB cable
+– Jumper wire
+– Breadboard
+– 10 x Resistor 1 kohm
+– 10 x Resistor 10 kohm
+– 10 x Resistor 330 ohm
+– 10 x Resistor 560 ohm
+– 5 x LED red
+– 5 x LED orange
+– 5 x LED green
+– 2 x LDR
+– Tilt switch
+– Temperature sensor MCP9700
+– Hall-effect sensor TLV49645
+– Magnet
+
 ### Computer Setup
 
 To be able to follow the steps in this tutorial, a development enviroment has to be set up. The microcontroller *FiPy* needs an IDE, for instance **Atom**, to read data from the sensors and to able to program it with the programming language *MicroPython*.
