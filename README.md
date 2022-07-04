@@ -131,9 +131,11 @@ Data is sent through [*MQTT*](https://mqtt.org/) protocol with *WIFI* connection
 **Figure 3-4** shows some of the photoresistors values recieved in the Pybytes database *every 10 seconds*. In **Figure 3** and **Figure 4** two lower values are shown (351 and 105) where the photoresistor was exposed to less light. The data is automatically saved in Pybytes database. 
 
 ### Finalizing the design
-//TODO: Show final results of the project
 
-//TODO: Pictures
+![Figure 5](https://github.com/ariazsh/my_iot_project/blob/main/final.jpg "Final")
+
+The project was very exciting to build and I have gained a lot of knowledge about cloud platforms, programming and the subject IoT in general. Most of the tasks were pretty easy to do but one challenging task I faced during the project was to connect my Pycom device to the Pybytes platform. I had to update the Pycome firmware (in the right way) to be able to connect the device. Nevertheless, everything else went pretty smooth. 
+
 
 
 
