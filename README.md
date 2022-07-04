@@ -16,7 +16,7 @@
 
 ### Objective
 
-This project was an assignment from the course 22ST - 1DT305 - Applied Internet of Things, Introduction - 7,5 hp. 
+This project was an assignment from the course 22ST - **1DT305 - Applied Internet of Things, Introduction - 7,5 hp**. 
 
 In this project, I chose to build a light sensor device with FiPy that reads an analog value (measuring the light intensity) to then send the data to the cloud. The purpose of this project was to gain more knowledge about how communication between devices (datatransfering) works. An insight i expect to get from this project is how devices communicate with each other (communication protocols) 
 
