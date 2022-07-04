@@ -22,11 +22,10 @@ In this project, I chose to build a light sensor device with FiPy that reads an 
 //TODO: Cost and source 
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Material               |Purchased      | price |
+| ---------------------- |:-------------:| -----:|
+|FiPy and sensors bundle |Electrokit     | 1499sk|
+
 
 ### Computer Setup
 
