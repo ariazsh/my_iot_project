@@ -96,7 +96,27 @@ I have chosen to use Pybytes as a platform, which is a cloud platform. [Pybytes]
 
 ### The code
 
-//TODO: import code and explain - reference
+```python
+from machine import ADC
+from machine import Pin
+import time
+
+LightSensorPin = 'P16' # sensor connected to P16. Valid pins are P13 to P20.
+
+lightPin = Pin(LightSensorPin, mode=Pin.IN)  # set up pin mode to input
+                                                                                                                            
+adc = ADC(bits=10)             # create an ADC object bits=10 means range 0-1024 the lower value the less light detected 
+apin = adc.channel(attn=ADC.ATTN_11DB, pin=LightSensorPin)   # create an analog pin on P16;  attn=ADC.ATTN_11DB measures voltage from 0.1 to 3.3v
+
+while True:
+    val = apin()
+    pybytes.send_signal(3, val)
+    print("sending: {}".format(val))
+    time.sleep(10)
+```
+We need three libraries: ADC, Pin and time. The ADC protocol is needed to create an adc object that can represent the light intensity with a value ranging from 0 - 1024. The Pin library is mainly needed for a function that takes two parameters with the pin ID of the light sensor (in our case 'P16') and information about what mode the pin is set to (in our case input). 
+
+In a loop, we store the analog value (*val*) from the photoresistor and send it to the platform Pybytes (signal 3). The value is then printed out in our REPL and a time sleep is set with value 10 seconds (this is where the library *time* is needed).  
 
 ### Transmitting the data / connectivity
 //TODO: How often is the data sent?
