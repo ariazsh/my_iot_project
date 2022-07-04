@@ -15,11 +15,6 @@ This project was an assignment from the course 22ST - **1DT305 - Applied Interne
 In this project, I chose to build a light sensor device with FiPy that reads an analog value (measuring the light intensity) to then send the data to the cloud. The purpose of this project was to gain more knowledge about how communication between devices (datatransfering) works. An insight i expect to get from this project is how devices communicate with each other (communication protocols) 
 
 ### Material 
-//TODO: List of material
-
-//TODO: Description
-
-//TODO: Cost and source 
 
 
 | Material               |Purchased      | price |
@@ -30,6 +25,7 @@ In this project, I chose to build a light sensor device with FiPy that reads an 
 The link to Electrolink is https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-fipy-and-sensors-bundle/
 
 This is the FiPy and sensors bundle. Includes:
+
 
 – FiPy with headers – Expansion board
 – Antennae
