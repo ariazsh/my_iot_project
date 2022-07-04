@@ -52,7 +52,7 @@ Pymakr is required to add a REPL console to Atom that connects to your Pycom boa
 
 Make sure that the microcontroller is updated with the latest version. This to ensure that eventual bugs are fixed and the latest libriries are available for the tutorial.
 
-**1. Plug in the FiPy board onto the Pycom expansion board to then connect it, via a USB cable, to your computer. **
+**1. Plug in the FiPy board onto the Pycom expansion board to then connect it, via a USB cable, to your computer.**
 
 **2. Make sure to download the Pycom Firmware Updater. You can follow the steps from this [link](https://hackmd.io/@lnu-iot/SJ91R_jSO).**
  
@@ -66,7 +66,7 @@ Make sure to test your device before uploading your code.
 
 **3. Test that your REPL works by entering *2 + 2* and press enter (or ctrl + alt + r) which then should you give you the output *4*.**
 
-**3. If correct output is given, you can upload the code by pressing the upload icon (or ctrl + alt + s).** 
+**4. If correct output is given, you can upload the code by pressing the upload icon (or ctrl + alt + s).** 
 
 The following program will switch colors between Red, Green and Blue every second. *Note the time.sleep(1)*.
 
