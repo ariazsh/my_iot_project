@@ -82,7 +82,9 @@ while True:
 
 ### Putting everything together
 
-//TODO: Circuit diagram (can be hand drawn)
+![Figure 1](https://github.com/ariazsh/my_iot_project/blob/main/bisquit.jpg "Circuit")
+
+**Note** that, when connecting the sensors (photoresistor), make sure to **not** connect the usb to your computer (or a power source). This could lead to damaging the sensors. From Pysense, pins P0 and P1 connects to FiPy P0 and P1, Vin 5V and Ground connect to FiPy 5V and Ground. From FiPy, the pins Ground and 3V3 connect to photoresistor (**Do note that you should not use the 5V to connect to the photoresistor since it can lead to damaging the photoresistor**).    
 
 ### Platform
 
@@ -118,15 +120,15 @@ Data is sent through [*MQTT*](https://mqtt.org/) protocol with *WIFI* connection
 
 ### Presenting the data
 
-![Figure 1](https://github.com/ariazsh/my_iot_project/blob/main/dashboard.png "Dashboard")
+![Figure 2](https://github.com/ariazsh/my_iot_project/blob/main/dashboard.png "Dashboard")
 
-**Figure 1** shows the dashboard where on the left diagram, data is shown for how much data is stored in Pybytes database in the last day. We see that more than 500B was recieved in a sample test. Since the sample test was very small, it is better to observe the results from the right diagram where the time span is smaller (past hour data). Unfortunality, the x-axis of the right diagram is mixing the time and 'pm' text in several web browsers. This makes it difficult to read the x-axis of the right diagram.
+**Figure 2** shows the dashboard where on the left diagram, data is shown for how much data is stored in Pybytes database in the last day. We see that more than 500B was recieved in a sample test. Since the sample test was very small, it is better to observe the results from the right diagram where the time span is smaller (past hour data). Unfortunality, the x-axis of the right diagram is mixing the time and 'pm' text in several web browsers. This makes it difficult to read the x-axis of the right diagram.
 
-![Figure 2](https://github.com/ariazsh/my_iot_project/blob/main/Signal_3.png "Signal_1")
+![Figure 3](https://github.com/ariazsh/my_iot_project/blob/main/Signal_3.png "Signal_1")
 
-![Figure 3](https://github.com/ariazsh/my_iot_project/blob/main/Signal_3_1.png "Signal_2")
+![Figure 4](https://github.com/ariazsh/my_iot_project/blob/main/Signal_3_1.png "Signal_2")
 
-**Figure 2-3** shows some of the photoresistors values recieved in the Pybytes database *every 10 seconds*. In **Figure 1** and **Figure 2** two lower values are shown (351 and 105) where the photoresistor was exposed to less light. The data is automatically saved in Pybytes database. 
+**Figure 3-4** shows some of the photoresistors values recieved in the Pybytes database *every 10 seconds*. In **Figure 3** and **Figure 4** two lower values are shown (351 and 105) where the photoresistor was exposed to less light. The data is automatically saved in Pybytes database. 
 
 ### Finalizing the design
 //TODO: Show final results of the project
