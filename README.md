@@ -119,12 +119,8 @@ We need three libraries: ADC, Pin and time. The ADC protocol is needed to create
 In a loop, we store the analog value (*val*) from the photoresistor and send it to the platform Pybytes (signal 3). The value is then printed out in our REPL and a time sleep is set with value 10 seconds (this is where the library *time* is needed).  
 
 ### Transmitting the data / connectivity
-//TODO: How often is the data sent?
 
-//TODO: Which wireless protocols did you use (WiFi, LoRa, etc …)?
-
-//TODO: Which transport protocols were used (MQTT, webhook, etc …)
-
+Data is sent through [*MQTT*](https://mqtt.org/) protocol with *WIFI* connection, since MQTT is designed for IoT networks and known for its reliability of connecting devices to internet and energy-efficiency. The photonsensors send the sensor values every 10 seconds (as described above in **The code** section). This due to a time sleep of 10 seconds so that we can store the values in Pybytes database. 
 
 ### Presenting the data
 
