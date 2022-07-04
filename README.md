@@ -4,15 +4,9 @@
 
 ## Tutorial on how to send data from photoresistor to Pybytes
 
-//TODO: ye aks
+The aim of this project is to experiment with IoT devices and gain more knowledge about the subject. I have chosen to create a photoresistor that uploads the light sensor values every 10 seconds to the Pybytes cloud platform through Message Queuing Telemetry Transport (MQTT). For this project Pycome expansion board is used together with FiPy and a photoresistor and resistor that is connected to though pins and breadboard. The software for the project is written in MicroPython inorder to communicate with the FiPy.  
 
-### Project overview
-
-//TODO: yekam beskrivning
-
-### Time approximation
-
-//TODO: 2 deighei
+The estimated time to recreate this project is approximately 3-5 hours. 
 
 ### Objective
 
