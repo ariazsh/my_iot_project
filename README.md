@@ -25,7 +25,7 @@ In this project, I chose to build a light sensor device with FiPy that reads an 
 | Material               |Purchased      | price |
 | ---------------------- |:-------------:| -----:|
 |FiPy and sensors bundle |Electrokit     | 1499sk|
-
+The link to Electrolink is https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-fipy-and-sensors-bundle/
 
 ### Computer Setup
 
