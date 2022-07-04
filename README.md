@@ -91,14 +91,8 @@ while True:
 //TODO: Circuit diagram (can be hand drawn)
 
 ### Platform
-//TODO: Describe platform in terms of functionality.
 
-//      etc. Is your platform based on a local installation or a cloud? 
-
-//      Do you plan to use a paid subscription or a free? 
-
-//      Describe the different alternatives on going forward if you want to scale your idea.
-
+I have chosen to use Pybytes as a platform, which is a cloud platform. [Pybytes](https://pybytes.pycom.io/) is Pycoms official plattform for sending/recieving data from the cloud. The reason I chose this platform is due to that it is easy to setup and mainly because it has built in libraries that makes it easy to connect to the local WIFI. Another advantage with Pybytes is that it is a free platform and thus you do not need to pay to use it. If I had more time on this project, I would experiment with adding more sensors (for instance to measure temperature), and combine platforms by sending data from PyBytes to Datacake.  
 
 ### The code
 
