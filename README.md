@@ -46,7 +46,7 @@ This is the FiPy and sensors bundle. Includes:
 
 materials description:
 Fipy is a microcontroller that has five networks and it is programmable in MicroPython. You need a development tool for the fipy and in this case it is Pymakr plugins. I used the expansion board to connect it to sensors and PC. In order to connect your sensors to the expansion board and fipy, you need breadboard and wires.
-In my project i used 7 wires, a photoresistor, a resistor, a breadboard, the fipy and the expansion board.
+In my project i used 7 wires, a photoresistor (gets a value depending on light intensity), a resistor (it is a component that can control electricty in an electronic circuit), a breadboard, the fipy and the expansion board.
 
 ### Computer Setup
 
